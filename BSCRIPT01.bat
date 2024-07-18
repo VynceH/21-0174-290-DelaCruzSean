@@ -7,4 +7,4 @@ start "Outlook" https://outlook.office.com/
 start calc
 start notepad
 timeout /t 10
-shutdown /s /f /t 0
+shutdown /s /f /t 1
