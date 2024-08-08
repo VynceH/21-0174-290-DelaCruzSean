@@ -1,0 +1,50 @@
+    1  cleas
+    2  clear
+    3  mkdir linux_practice
+    4  ls
+    5  cd linux_practice
+    6  ls
+    7  touch note.txt
+    8  ls
+    9  mv note.txt notes.txt
+   10  ls
+   11  cat notes.txt
+   12  echo "Hello, Linux!" > notes.txt
+   13  ls
+   14  echo "This is a practical exam." >> notes.txt
+   15  cat notes.txt
+   16  head -1 notes.txt
+   17  tail -1 notes.txt
+   18  mkdir subdir
+   19  ls
+   20  mv notes.txt subdir
+   21  ls
+   22  mv subdir practice_subdir
+   23  ls
+   24  cd practice_subdir
+   25  ls
+   26  cp notes.txt ~/linux_practice
+   27  cd ..
+   28  ls
+   29  cat notes.txt
+   30  cd practice_subdir
+   31  ls
+   32  cat notes.txt
+   33  date
+   34  uptime
+   35  df -h
+   36  ssh -v
+   37  php -v
+   38  mysql -v
+   39  apavhe2 -v
+   40  apache2 -v
+   41  java -version
+   42  python3 --version
+   43  service mysql start
+   44  mysql -v
+   45  gh repo clone https://github.com/VynceH/210174290-DelaCruzSean.git
+   46  ls
+   47  cd 210174290-DelaCruzSean
+   48  ls
+   49  git checkout -b finalexam
+   50  history > exam_log.txt
